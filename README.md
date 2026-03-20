@@ -1,1 +1,98 @@
 # newsletter.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> contact us </title>
+</head>
+<body>
+    <header>
+          <img src="AI pic.jpg" alt="Tech Newsletter Logo" width="50">
+                <h1>Tech Newsletter
+
+    </h1>
+
+        </h1>
+        <nav> 
+            <ul>
+            <li> <a href="#"> Home </a> </li>
+            <li> <a href="#"> About </a> </li>
+            <li> <a href="#"> Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2> news letter signup</h2>
+            <form action="#" method="post">
+
+                <div>
+<label for="name"> Full name:</label>
+<input type="text" id="name" name="name" required>
+</div>
+ 
+<div>
+<label for="email"> Email:</label>
+<input type="email" id="email" name="email" required>
+</div>
+
+<div>  
+<label for="topic">Favorite Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="" >Select a topic</option>
+                    <option value="ai">AI News</option>
+                    <option value="web">Web Development</option>
+                    <option value="startup">Startups</option>
+        
+
+</div>
+<div>
+    <label for="message"> message:</label>
+    <textarea id="message" name="message" required rows="5" minlength="10"></textarea>
+</div>
+
+<div>
+    <button type="submit" subscribe  ></button>
+</div>
+
+            </form >
+        </section>
+
+        <section>
+            <h3> Popular topics this week</h3>
+            <table>
+                <caption>Popular Topics This Week</caption>
+                <tr>
+                    <th> Topic  </th>
+                    <th> Articles </th>
+                    <th> most popular day</th>
+                </tr>
+
+           <tr>
+                <td> AI News </td>
+                <td> 10 </td>
+                <td> Monday,Tuesday </td>
+            </tr>
+
+            <tr>
+                <td> Web Development </td>
+                <td> 14 </td>
+                <td> wednesday,Thursday </td>
+            </tr>
+
+            <tr>
+                <td> Startups </td>
+                <td> 22 </td>
+                <td> Friday,Saturday </td>
+           </tr>     
+
+
+</table>
+        </section>
+    </main>
+<footer>
+    <p>&copy; 2026 Tech newsletter </p>
+</footer>
+
+</body>
+
+</html>
